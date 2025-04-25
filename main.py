@@ -25,8 +25,7 @@ with st.sidebar:
         st.session_state.history = []
         st.rerun()
     st.markdown("---")
-    st.markdown("✅ **Powered by Google Gemini + BeautifulSoup**")
-    st.markdown("📚 Keeps short memory of last 10 queries.")
+    st.markdown("**Powered by Google Gemini + BeautifulSoup**")
 
 # --- Display chat history ---
 for message in st.session_state.messages:
@@ -34,7 +33,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # --- Chat input ---
-user_query = st.chat_input("Ask me anything (e.g. 'What are the latest trends in AI research?')")
+user_query = st.chat_input("Ask me anything (Make sure to include keywords like 'Python'/'AI'/'Climate Change' for now)")
 
 if user_query:
     # Show user message
