@@ -38,7 +38,7 @@ Now create a final response that:
 - Resolves any conflicting points (if found)
 - Includes helpful insights, not fluff
 
-Return only the final summary.
+Return only the final summary. If you do not find any content, respond with your knowledge after telling the user the same.
 """
 
     try:

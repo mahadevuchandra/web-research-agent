@@ -1,18 +1,18 @@
-# 🌐 Web Research Agent 🤖
+# Web Research Agent 
 
 An AI-powered research assistant that uses Gemini to search the web, extract content, analyze it, and deliver concise answers — all in a chat-like interface powered by Streamlit.
 
-## 🚀 Features
+## Features
 
-- 🔍 Smart web search (mock-based for easy deployment)
-- 🧠 Gemini-powered summarization and synthesis
-- 📄 Respectful scraping with `robots.txt` checks
-- 💬 Chat UI with conversation memory
-- ⚡ Fast and light using `gemini-2.0-flash`
+- Smart web search (mock-based for easy deployment)
+- Gemini-powered summarization and synthesis
+- Respectful scraping with `robots.txt` checks
+- Chat UI with conversation memory
+- Fast and light using `gemini-2.0-flash`
 
 ---
 
-## 🛠 Setup
+##  Setup
 
 ### 1. Clone the Repo
 
@@ -42,11 +42,11 @@ Create a `.env` file in the root directory with the following content:
 GEMINI_API_KEY=your_api_key_here
 ```
 
-> 💡 Replace `your_api_key_here` with your actual Gemini API key.
+>  Replace `your_api_key_here` with your actual Gemini API key.
 
 ---
 
-## 🧪 Running Tests
+##  Running Tests
 
 Run all unit tests with:
 
@@ -54,11 +54,11 @@ Run all unit tests with:
 python -m unittest discover -s tests
 ```
 
-> ✅ All tests are located in the `tests/` directory and use `unittest`.
+>  All tests are located in the `tests/` directory and use `unittest`.
 
 ---
 
-## 💻 Run the App
+##  Run the App
 
 Launch the chatbot locally:
 
@@ -68,7 +68,7 @@ streamlit run main.py
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 web-research-agent/
@@ -82,7 +82,7 @@ web-research-agent/
 
 ---
 
-## 🧠 Powered By
+##  Powered By
 
 - [Google Gemini](https://ai.google.dev/)
 - [Streamlit](https://streamlit.io/)
@@ -91,6 +91,6 @@ web-research-agent/
 
 ---
 
-## 📜 License
+##  License
 
 MIT License © 2025 Mahadevu. Chandra Paul

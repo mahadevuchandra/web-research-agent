@@ -1,7 +1,6 @@
 def analyze_query(query: str, history: list = None) -> dict:
     """
     Analyze a user's query to determine its type and extract keywords.
-    Optionally checks if the query is related to past conversation history.
 
     Args:
         query (str): The user's research question.

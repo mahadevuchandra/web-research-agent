@@ -13,8 +13,7 @@ model = genai.GenerativeModel("gemini-2.0-flash")
 
 def analyze_content(text: str, query: str, context: str = "") -> str:
     """
-    Uses Gemini to summarize the extracted content based on the user's query
-    and optional conversational context.
+    Uses Gemini to summarize the extracted content based on the user's query.
 
     Args:
         text (str): Web content to analyze.
